@@ -1,9 +1,8 @@
-import user from 'data/user.json';
-import { ProfileWrap } from './ProfileWrap.styled';
+import { ProfileWrap } from './Profile.styled';
 import { ProfileDescription } from './ProfileDescription/ProfileDescription';
 import { ProfileStats } from './ProfileStats/ProfileStats';
 
-export const Profile = () => {
+export const Profile = ({ user }) => {
   const { username, avatar, tag, location, stats } = user;
   return (
     <ProfileWrap>
