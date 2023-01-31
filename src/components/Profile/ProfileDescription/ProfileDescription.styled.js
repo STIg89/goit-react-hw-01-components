@@ -7,6 +7,7 @@ export const Description = styled.div`
   text-align: center;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+  box-shadow: 2px 3px 5px gray;
 `;
 
 export const Avatar = styled.img`

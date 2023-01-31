@@ -8,6 +8,7 @@ export const Stats = styled.ul`
   list-style: none;
   padding: 0;
   display: flex;
+  box-shadow: 2px 3px 5px gray;
 `;
 
 export const Info = styled.li`

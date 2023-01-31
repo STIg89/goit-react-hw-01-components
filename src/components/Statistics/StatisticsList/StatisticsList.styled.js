@@ -8,4 +8,5 @@ export const StatList = styled.ul`
   display: flex;
   height: 100px;
   justify-content: space-between;
+  box-shadow: 2px 3px 5px gray;
 `;
