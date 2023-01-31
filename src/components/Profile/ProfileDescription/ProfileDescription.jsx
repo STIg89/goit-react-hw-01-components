@@ -12,7 +12,7 @@ export const ProfileDescription = ({ userName, tag, location, avatar }) => {
     <Description>
       <Avatar src={avatar} alt="User avatar" />
       <Name>{userName}</Name>
-      <Tag>{tag}</Tag>
+      <Tag>@{tag}</Tag>
       <Location>{location}</Location>
     </Description>
   );
